@@ -1,0 +1,126 @@
+.techstack {
+  width: 100%;
+  position: relative;
+  min-height: 400px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 60px 0;
+  background: linear-gradient(
+    180deg,
+    rgba(11, 8, 12, 0) 0%,
+    rgba(15, 0, 44, 0.3) 50%,
+    rgba(11, 8, 12, 0) 100%
+  );
+}
+
+.techstack h2 {
+  font-size: 80px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 80px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.tech-marquee-container {
+  width: 100%;
+  overflow: hidden;
+  padding: 40px 0;
+}
+
+.tech-marquee {
+  display: flex;
+  align-items: center;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 60px;
+  transition: transform 0.3s ease;
+}
+
+.tech-item:hover {
+  transform: translateY(-10px);
+}
+
+.tech-icon-wrapper {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(194, 164, 255, 0.1);
+  border-radius: 20px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  border: 2px solid rgba(194, 164, 255, 0.2);
+}
+
+.tech-item:hover .tech-icon-wrapper {
+  background: rgba(194, 164, 255, 0.2);
+  border-color: rgba(194, 164, 255, 0.5);
+  box-shadow: 0 10px 40px rgba(194, 164, 255, 0.3);
+}
+
+.tech-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  filter: brightness(0.9);
+  transition: filter 0.3s ease;
+}
+
+.tech-item:hover .tech-icon {
+  filter: brightness(1.2);
+}
+
+.tech-name {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #eae5ec;
+  text-align: center;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.tech-item:hover .tech-name {
+  opacity: 1;
+  color: var(--accentColor);
+}
+
+@media screen and (max-width: 900px) {
+  .techstack {
+    min-height: 300px;
+    margin-top: 50px;
+  }
+
+  .techstack h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  .tech-item {
+    margin: 0 30px;
+  }
+
+  .tech-icon-wrapper {
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+  }
+
+  .tech-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .tech-name {
+    font-size: 14px;
+    margin-top: 12px;
+  }
+}
