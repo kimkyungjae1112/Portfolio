@@ -3,6 +3,9 @@
 This repository contains the open source version of my porfolio website.
 Do check it out!
 
+# link
+https://portfolio-indol-alpha-31.vercel.app/
+
 ## Instructions 🛠️
 
 I have modified the gsap club plugins with the trial plugins, but with the trial plugin you cannot host it🔴. So for Club plugins, Check out here: https://gsap.com/docs/v3/Installation/
