@@ -21,19 +21,19 @@ const Career = () => {
               <h3>2020 ~</h3>
             </div>
             <p>
-              게임 개발에 열정을 가지고 C++과 Unreal Engine을 활용한 다양한 프로젝트를 진행하며 실무 역량을 키워왔습니다.
+              게임 개발에 열정을 가지고 C++과 Unreal Engine을 활용한 다양한 프로젝트를 진행하며 역량을 키워왔습니다.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>육군 11사단 기갑수색대대</h4>
-                <h5>척후병 만기 전역</h5>
+                <h4>전남대학교 Software Language and System Lab</h4>
+                <h5>학부연구생</h5>
               </div>
-              <h3>2021 - 2022</h3>
+              <h3>2023.09 ~</h3>
             </div>
             <p>
-              군 복무 기간 동안 책임감과 팀워크를 배웠으며, 체계적인 사고와 문제 해결 능력을 키웠습니다.
+              Tree-sitter 엔진 해킹, SmartBlock, ChatGPT기반 VSCode UI 작업 등을 해왔습니다.
             </p>
           </div>
           <div className="career-info-box">

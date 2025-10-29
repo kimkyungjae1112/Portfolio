@@ -90,12 +90,13 @@ const WhatIDo = () => {
               <h3>GAME DEVELOPMENT</h3>
               <h4>Description</h4>
               <p>
-                Unreal Engine과 C++을 활용한 게임 개발 전문. 복잡한 게임 로직, AI 시스템, 최적화에 능숙합니다.
+                Unreal Engine과 C++을 활용한 게임 개발 스킬 
+                게임 컨텐츠(상호작용), AI, UI, 전투 시스템 등 개발에 능숙합니다.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">C++</div>
-                <div className="what-tags">Unreal Engine 5.4 / 5.5</div>
+                <div className="what-tags">Unreal Engine 5</div>
                 <div className="what-tags">게임플레이 프로그래밍</div>
                 <div className="what-tags">AI 시스템</div>
                 <div className="what-tags">최적화</div>
@@ -134,8 +135,7 @@ const WhatIDo = () => {
               <div className="what-content-flex">
                 <div className="what-tags">Git / GitHub</div>
                 <div className="what-tags">Visual Studio</div>
-                <div className="what-tags">Unreal Editor</div>
-                <div className="what-tags">Blender</div>
+                <div className="what-tags">Unreal Engine 5</div>
                 <div className="what-tags">디버깅 & 프로파일링</div>
                 <div className="what-tags">팀 협업</div>
                 <div className="what-tags">코드 리뷰</div>
