@@ -90,7 +90,7 @@ const WhatIDo = () => {
               <h3>GAME DEVELOPMENT</h3>
               <h4>Description</h4>
               <p>
-                Unreal Engine과 C++을 활용한 게임 개발 스킬 
+                Unreal Engine과 C++을 활용한 게임 개발 스킬 <br>
                 게임 컨텐츠(상호작용), AI, UI, 전투 시스템 등 개발에 능숙합니다.
               </p>
               <h5>Skillset & tools</h5>
